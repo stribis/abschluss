@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abschluss</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script defer src="code.js"></script>
+</head>
+<body>
+  <header class="container center">
+    <h1>Abschlusstest Planner</h1>
+  </header>
+  <main class="container">
+    <div class="row">
+      <label for="group_input">Adding a group starts a 95 min timer</label>
+    </div>
+    <form>
+      <div class="row">
+        <input type="text" id="group_input" placeholder="Hans, Peter, Lola">
+      </div>
+      <div class="row">
+        <button class="add button">Add new Group</button>
+      </div>
+    </form>
+
+
+    <div class="status">
+      <table>
+        <tr>
+          <th>Group</th>
+          <th>Briefing Ended</th>
+          <th>Pitch Starts</th>
+          <th>Time Left</th>
+          <th>Delete</th>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
